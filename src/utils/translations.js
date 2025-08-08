@@ -77,7 +77,7 @@ export const translations = {
       "Conseguendo la Laurea Triennale in Ingegneria Informatica al Politecnico di Torino, ho acquisito una solida base in informatica, matematica e ingegneria, sviluppando le competenze per affrontare problemi complessi e creare soluzioni innovative nel settore tecnologico.",
     shiraz: "Università Tecnica Soroush",
     shirazDesc:
-      "DLaureato con un Diploma di Laurea in Ingegneria Elettrica, ho acquisito solide conoscenze in teoria dei circuiti, elettronica e sistemi elettrici, fornendo le competenze tecniche necessarie per studi avanzati in ingegneria e tecnologia.",
+      "Laureato con un Diploma di Laurea in Ingegneria Elettrica, ho acquisito solide conoscenze in teoria dei circuiti, elettronica e sistemi elettrici, fornendo le competenze tecniche necessarie per studi avanzati in ingegneria e tecnologia.",
     Experience: "Esperienza",
     aiTitle: "Sviluppatore AI @ WaitHero",
     aiDesc:
