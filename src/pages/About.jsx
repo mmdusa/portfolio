@@ -105,10 +105,17 @@ export default function About() {
           <div className="max-w-3xl mx-auto bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md border border-gray-200 dark:border-gray-700">
             <div className="space-y-5">
               {[
-                { skill: "Python", level: 80 },
-                { skill: "Data Analytics", level: 70 },
-                { skill: "Machine Learning", level: 50 },
-                { skill: "Data Management", level: 40 },
+                { skill: "HTML & CSS", level: 90 },
+                { skill: "JavaScript (ES6+)", level: 85 },
+                { skill: "React", level: 85 },
+                { skill: "Tailwind CSS", level: 80 },
+                { skill: "Framer Motion", level: 70 },
+                { skill: "Node.js & Express", level: 65 },
+                { skill: "WordPress", level: 70 },
+                { skill: "Google Sheets API", level: 75 },
+                { skill: "Telegram Bot Development", level: 80 },
+                { skill: "Git & GitHub", level: 85 },
+
               ].map((item, i) => (
                 <div key={i}>
                   <div className="flex justify-between mb-1">
