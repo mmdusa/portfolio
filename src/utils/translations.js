@@ -7,13 +7,13 @@ export const translations = {
     downloadCV: "Download CV",
     aboutMe: "About Me",
 
-    heroTitle: "Hi, I'm Mohammad 👋",
+    heroTitle: "Hi, I'm Mohammad Rajabi👋",
     heroSubtitle:
       "I build creative, responsive websites using React, Tailwind, and animation tools like Framer Motion.",
     heroCTA: "Let’s Work Together",
 
     intro1:
-      "I'm Mohammad, a passionate front-end developer who loves building clean, creative, and user-friendly web interfaces using React, Tailwind CSS, and Framer Motion.",
+      " dedicated Full-Stack Developer passionate about crafting clean, creative, and user-friendly web applications. I specialize in React, Tailwind CSS, and Framer Motion for dynamic front-end experiences, combined with modern backend technologies to deliver complete, scalable solutions.",
     intro2:
       "I specialize in turning ideas into interactive and responsive designs. I enjoy solving UI/UX problems and creating smooth, animated user experiences.",
     intro3:
@@ -21,10 +21,10 @@ export const translations = {
     Education: "Education",
     politecnico: "Politecnico Di Torino",
     politecnicoDesc:
-      "The Bachelor’s Degree in Computer Engineering at Politecnico di Torino provides a strong foundation in computer science, mathematics, and engineering, preparing me for a wide range of careers in the tech sector.",
-    shiraz: "Shiraz High School",
+      "Pursuing my Bachelor’s Degree in Computer Engineering at Politecnico di Torino, I’ve built a solid foundation in computer science, mathematics, and engineering—equipping me with the skills to tackle complex problems and create innovative solutions in the tech industry.",
+    shiraz: "Soroush Technical Univeristy",
     shirazDesc:
-      "Graduated with a focus on mathematics and physics. The curriculum laid the groundwork for further studies in engineering and technology.",
+      "Graduated with an Associate’s Degree in Electrical Engineering, gaining a strong foundation in circuit theory, electronics, and electrical systems—providing the technical skills and knowledge for advanced studies in engineering and technology",
     Experience: "Experience",
     aiTitle: "AI Developer @ WaitHero",
     aiDesc:
@@ -60,24 +60,24 @@ export const translations = {
     downloadCV: "Scarica CV",
     aboutMe: "Chi sono",
 
-    heroTitle: "Ciao, sono Mohammad 👋",
+    heroTitle: "Ciao, sono Mohammad Rajabi👋 👋",
     heroSubtitle:
-      "Creo siti web creativi e reattivi usando React, Tailwind e strumenti di animazione come Framer Motion.",
+      "Creo siti web creativi e reattivi utilizzando React, Tailwind e strumenti di animazione come Framer Motion.",
     heroCTA: "Lavoriamo insieme",
 
     intro1:
-      "Sono Mohammad, uno sviluppatore front-end appassionato che ama creare interfacce web pulite, creative e intuitive usando React, Tailwind CSS e Framer Motion.",
+      "Sviluppatore Full-Stack dedicato, appassionato nella creazione di applicazioni web pulite, creative e intuitive. Specializzato in React, Tailwind CSS e Framer Motion per esperienze front-end dinamiche, integrati con tecnologie backend moderne per offrire soluzioni complete e scalabili.",
     intro2:
-      "Mi specializzo nel trasformare idee in design interattivi e reattivi. Mi piace risolvere problemi di UI/UX e creare esperienze utente animate e fluide.",
+      "Trasformo idee in design interattivi e reattivi. Amo risolvere problemi di UI/UX e creare esperienze utente fluide e animate.",
     intro3:
-      "Quando non programmo, sto imparando qualcosa di nuovo, migliorando i miei progetti o esplorando le tendenze del design.",
+      "Quando non programmo, sto imparando qualcosa di nuovo, migliorando i miei progetti o esplorando nuove tendenze di design.",
     Education: "Istruzione",
     politecnico: "Politecnico di Torino",
     politecnicoDesc:
-      "La laurea in Ingegneria Informatica presso il Politecnico di Torino offre una solida base in informatica, matematica e ingegneria, preparandomi a molteplici carriere nel settore tecnologico.",
-    shiraz: "Liceo Shiraz",
+      "Conseguendo la Laurea Triennale in Ingegneria Informatica al Politecnico di Torino, ho acquisito una solida base in informatica, matematica e ingegneria, sviluppando le competenze per affrontare problemi complessi e creare soluzioni innovative nel settore tecnologico.",
+    shiraz: "Università Tecnica Soroush",
     shirazDesc:
-      "Diplomato con un focus su matematica e fisica. Il curriculum ha posto le basi per ulteriori studi in ingegneria e tecnologia.",
+      "DLaureato con un Diploma di Laurea in Ingegneria Elettrica, ho acquisito solide conoscenze in teoria dei circuiti, elettronica e sistemi elettrici, fornendo le competenze tecniche necessarie per studi avanzati in ingegneria e tecnologia.",
     Experience: "Esperienza",
     aiTitle: "Sviluppatore AI @ WaitHero",
     aiDesc:
