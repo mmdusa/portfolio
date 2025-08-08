@@ -57,17 +57,17 @@ export const translations = {
     recommendations: [
       {
         name: "Gianandrea Siccardi",
-        avatar: "/certs/prof-siccardi.jpg",
+        avatar: "/public/prof-siccardi.jpg",
         text: "I am writing to wholeheartedly endorse Mohammad for the position of AI Developer. He consistently shows initiative, attention to detail, and strong communication skills...",
       },
       {
         name: "Stefano Quer",
-        avatar: "/certs/prof-quer.jpg",
+        avatar: "/public/prof-quer.jpg",
         text: "Mohammad was my student from September 2023 to January 2024. He followed an intense course in computer engineering and always demonstrated curiosity and dedication...",
       },
       {
         name: "Dr. Maria Rossi",
-        avatar: "/certs/prof-rossi.jpg",
+        avatar: "/public/prof-rossi.jpg",
         text: "Mohammad impressed me with his leadership and problem-solving skills during the AI research project...",
       },
     ],
@@ -76,15 +76,15 @@ export const translations = {
       { title: "Machine Learning with Python (IBM)", img: "/certs/ibm-ml.png" },
       {
         title: "Python Project for Data Science (IBM)",
-        img: "/certs/ibm-python-project.png",
+        img: "/public/ibm-python-project.png",
       },
       {
         title: "Python for Data Science and AI (IBM)",
-        img: "/certs/ibm-ds-ai.png",
+        img: "/public/ibm-ds-ai.png",
       },
       {
         title: "Data Science Methodology (IBM)",
-        img: "/certs/ibm-ds-methods.png",
+        img: "/public/ibm-ds-methods.png",
       },
     ],
   },
@@ -147,29 +147,32 @@ export const translations = {
     recommendations: [
       {
         name: "Gianandrea Siccardi",
-        avatar: "/certs/prof-siccardi.jpg",
+        avatar: "/public/prof-siccardi.jpg",
         text: "Scrivo per raccomandare vivamente Mohammad per la posizione di Sviluppatore AI...",
       },
       {
         name: "Stefano Quer",
-        avatar: "/certs/prof-quer.jpg",
+        avatar: "/public/prof-quer.jpg",
         text: "Mohammad è stato mio studente da settembre 2023 a gennaio 2024...",
       },
     ],
 
     achievements: [
-      { title: "Machine Learning con Python (IBM)", img: "/certs/ibm-ml.png" },
+      {
+        title: "Machine Learning con Python (IBM)",
+        img: "/public/ibm-ml.png",
+      },
       {
         title: "Progetto Python per Data Science (IBM)",
-        img: "/certs/ibm-python-project.png",
+        img: "/public/ibm-python-project.png",
       },
       {
         title: "Python per Data Science e AI (IBM)",
-        img: "/certs/ibm-ds-ai.png",
+        img: "/public/ibm-ds-ai.png",
       },
       {
         title: "Metodologia di Data Science (IBM)",
-        img: "/certs/ibm-ds-methods.png",
+        img: "/public/ibm-ds-methods.png",
       },
     ],
   },
