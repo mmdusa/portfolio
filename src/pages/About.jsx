@@ -115,7 +115,6 @@ export default function About() {
                 { skill: "Google Sheets API", level: 75 },
                 { skill: "Telegram Bot Development", level: 80 },
                 { skill: "Git & GitHub", level: 85 },
-
               ].map((item, i) => (
                 <div key={i}>
                   <div className="flex justify-between mb-1">
