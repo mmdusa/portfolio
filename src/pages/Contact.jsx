@@ -18,8 +18,8 @@ export default function Contact() {
     {
       icon: FaGithub,
       label: t.github,
-      info: "github.com/yourusername",
-      link: "https://github.com/yourusername",
+      info: "github.com/mmdusa",
+      link: "https://github.com/mmdusa",
     },
     {
       icon: FaEnvelope,
