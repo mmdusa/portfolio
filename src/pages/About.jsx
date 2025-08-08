@@ -81,7 +81,7 @@ export default function About() {
             <div className="relative">
               <div className="w-3 h-3 bg-pink-500 rounded-full absolute -left-4 top-2"></div>
               <h4 className="font-bold text-lg">{t.gameTitle}</h4>
-              <p className="text-sm text-orange-400">Feb 2024 — Present 2021</p>
+              <p className="text-sm text-orange-400">Feb 2024 — Present</p>
               <p className="text-gray-600 dark:text-gray-300 mt-2">
                 {t.gameDesc}
               </p>
