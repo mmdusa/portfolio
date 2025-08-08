@@ -26,9 +26,9 @@ export const translations = {
     shirazDesc:
       "Graduated with an Associate’s Degree in Electrical Engineering, gaining a strong foundation in circuit theory, electronics, and electrical systems—providing the technical skills and knowledge for advanced studies in engineering and technology",
     Experience: "Experience",
-    aiTitle: "AI Developer @ WaitHero",
+    aiTitle: "Captain @JustEat",
     aiDesc:
-      "Responsible for designing and implementing AI solutions to enhance software applications. I work with machine learning, data analysis, and automation to build powerful intelligent systems.",
+      "Responsible for managing and overseeing the activities of couriers within the city, ensuring compliance with company policies and regulations.",
     gameTitle: "Game Designer Intern @ Datis Pars Co.",
     gameDesc:
       "Collaborated with teams to design game levels, mechanics, characters, and user interfaces. Ensured quality and consistency across game features.",
@@ -79,9 +79,9 @@ export const translations = {
     shirazDesc:
       "Laureato con un Diploma di Laurea in Ingegneria Elettrica, ho acquisito solide conoscenze in teoria dei circuiti, elettronica e sistemi elettrici, fornendo le competenze tecniche necessarie per studi avanzati in ingegneria e tecnologia.",
     Experience: "Esperienza",
-    aiTitle: "Sviluppatore AI @ WaitHero",
+    aiTitle: "Captain @ JustEat",
     aiDesc:
-      "Responsabile della progettazione e implementazione di soluzioni AI per migliorare le applicazioni software. Lavoro con machine learning, analisi dei dati e automazione.",
+      "Responsabile della gestione e supervisione delle attività dei corrieri all’interno della città, garantendo il rispetto delle politiche aziendali e delle normative vigenti.",
     gameTitle: "Tirocinante Game Designer @ Datis Pars Co.",
     gameDesc:
       "Collaborato con i team per progettare livelli di gioco, meccaniche, personaggi e interfacce utente. Garantita qualità e coerenza.",
