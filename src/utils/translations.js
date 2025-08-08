@@ -29,12 +29,12 @@ export const translations = {
     aiTitle: "Captain @JustEat",
     aiDesc:
       "Responsible for managing and overseeing the activities of couriers within the city, ensuring compliance with company policies and regulations.",
-    gameTitle: "Game Designer Intern @ Datis Pars Co.",
+    gameTitle: "Freelance Web Developer",
     gameDesc:
-      "Collaborated with teams to design game levels, mechanics, characters, and user interfaces. Ensured quality and consistency across game features.",
-    wpTitle: "WordPress Admin @ Sunbyte",
+      "Worked independently with various clients to design and develop responsive websites and web applications. Delivered projects using React, Tailwind CSS, and modern backend technologies, ensuring high performance and user-friendly interfaces.",
+    wpTitle: "National Taekwondo Referee @ FITA",
     wpDesc:
-      "Managed content, installed plugins, and resolved technical issues for Sunbyte's WordPress shopping platform.",
+      "Certified Taekwondo referee with experience officiating numerous national competitions across Italy and several international events abroad, ensuring fair play and adherence to World Taekwondo rules.",
     skillsTitle: "My Skills",
     Myprojects: "My Projects",
     title1: "Telegram Bot + Google Sheets",
@@ -82,12 +82,12 @@ export const translations = {
     aiTitle: "Captain @ JustEat",
     aiDesc:
       "Responsabile della gestione e supervisione delle attività dei corrieri all’interno della città, garantendo il rispetto delle politiche aziendali e delle normative vigenti.",
-    gameTitle: "Tirocinante Game Designer @ Datis Pars Co.",
+    gameTitle: "Sviluppatore Web Freelance.",
     gameDesc:
-      "Collaborato con i team per progettare livelli di gioco, meccaniche, personaggi e interfacce utente. Garantita qualità e coerenza.",
-    wpTitle: "Amministratore WordPress @ Sunbyte",
+      "Ho collaborato con diversi clienti per progettare e sviluppare siti web e applicazioni web responsive. Ho realizzato progetti utilizzando React, Tailwind CSS e moderne tecnologie backend, garantendo alte prestazioni e interfacce intuitive.",
+    wpTitle: "Arbitro di Taekwondo Nazionale @ FITA",
     wpDesc:
-      "Gestione dei contenuti, installazione plugin e risoluzione di problemi tecnici per la piattaforma e-commerce WordPress di Sunbyte.",
+      "Arbitro di Taekwondo certificato con esperienza in numerose competizioni nazionali in Italia e in diversi eventi internazionali all’estero, garantendo il fair play e il rispetto delle regole della World Taekwondo.",
     skillsTitle: "Le mie competenze",
     Myprojects: "I miei Projetti",
     title1: "Telegram Bot + Google Sheets",
