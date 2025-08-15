@@ -1,59 +1,34 @@
+// src/App.jsx
 import {
   BrowserRouter as Router,
   Routes,
   Route,
   useLocation,
 } from "react-router-dom";
-import { AnimatePresence, motion } from "framer-motion";
-import { useState, useEffect } from "react";
+import { AnimatePresence } from "framer-motion";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
-import WelcomeOverlay from "./components/WelcomeOverlay";
+import Credentials from "./pages/Credentials"; // NEW
+import Certificates from "./pages/Certificates";
+
+/* NEW imports for Blog */
+import Blog from "./pages/Blog";
+import BlogPost from "./pages/BlogPost";
 
 function App() {
-  const [overlayVisible, setOverlayVisible] = useState(true);
-
-  useEffect(() => {
-    const timer = setTimeout(() => setOverlayVisible(false), 3500); // same as overlay animation time
-    return () => clearTimeout(timer);
-  }, []);
-
   return (
     <Router>
-      {/* Stack both overlays using z-index and position */}
-      <div className="relative min-h-screen overflow-hidden">
-        {/* Main site (visible from the start, but transparent) */}
-        <motion.div
-          className="absolute inset-0 z-10 bg-white dark:bg-black text-black dark:text-white flex flex-col"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: overlayVisible ? 0 : 1 }}
-          transition={{ duration: 1.5 }}
-        >
-          <Navbar />
-          <main className="flex-grow w-full overflow-x-hidden">
-            <AnimatedRoutes />
-          </main>
-          <Footer />
-        </motion.div>
-
-        {/* Welcome overlay on top */}
-        <AnimatePresence>
-          {overlayVisible && (
-            <motion.div
-              className="absolute inset-0 z-20"
-              initial={{ opacity: 1 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              transition={{ duration: 1.5 }}
-            >
-              <WelcomeOverlay />
-            </motion.div>
-          )}
-        </AnimatePresence>
+      <div className="min-h-screen bg-white dark:bg-black text-black dark:text-white flex flex-col">
+        <Navbar />
+        <main className="flex-grow w-full overflow-x-hidden">
+          <AnimatedRoutes />
+        </main>
+        {/* Footer pinned to bottom via flex column layout */}
+        <Footer />
       </div>
     </Router>
   );
@@ -67,6 +42,11 @@ function AnimatedRoutes() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/credentials" element={<Credentials />} /> {/* NEW */}
+        {/* NEW Blog routes */}
+        <Route path="/certificates" element={<Certificates />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/:slug" element={<BlogPost />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </AnimatePresence>

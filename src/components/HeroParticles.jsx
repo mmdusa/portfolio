@@ -1,3 +1,4 @@
+// src/components/HeroParticles.jsx
 import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
@@ -7,59 +8,44 @@ export default function HeroParticles() {
     await loadFull(engine);
   }, []);
 
+  // not used but required by the Particles prop
+  const particlesLoaded = useCallback(async () => {}, []);
+
   return (
-    <Particles
-      id="tsparticles"
-      init={particlesInit}
-      options={{
-        fullScreen: false,
-        background: {
-          color: {
-            value: "#cfe2ff", // Light blue background
+    <div className="absolute inset-0 -z-10 pointer-events-none">
+      <Particles
+        id="tsparticles"
+        init={particlesInit}
+        loaded={particlesLoaded}
+        options={{
+          background: { color: "transparent" },
+          fullScreen: { enable: false }, // we position it inside the hero
+          fpsLimit: 60,
+          interactivity: {
+            events: {
+              onHover: { enable: true, mode: "repulse" },
+              resize: true,
+            },
+            modes: { repulse: { distance: 100, duration: 0.4 } },
           },
-        },
-        fpsLimit: 60,
-        interactivity: {
-          events: {
-            onHover: {
+          particles: {
+            color: { value: "#3B82F6" },
+            links: {
+              color: "#3B82F6",
+              distance: 150,
               enable: true,
-              mode: "repulse",
+              opacity: 0.5,
+              width: 1,
             },
-            resize: true,
+            move: { enable: true, speed: 2 },
+            number: { density: { enable: true, area: 800 }, value: 50 },
+            opacity: { value: 0.5 },
+            shape: { type: "circle" },
+            size: { value: { min: 1, max: 5 } },
           },
-        },
-        particles: {
-          color: {
-            value: "#3b82f6", // Tailwind blue-500
-          },
-          links: {
-            enable: true,
-            color: "#3b82f6",
-            distance: 150,
-            opacity: 0.5,
-            width: 1,
-          },
-          move: {
-            enable: true,
-            speed: 2,
-            outModes: {
-              default: "bounce",
-            },
-          },
-          number: {
-            value: 40,
-          },
-          opacity: {
-            value: 0.5,
-          },
-          shape: {
-            type: "circle",
-          },
-          size: {
-            value: { min: 2, max: 5 },
-          },
-        },
-      }}
-    />
+          detectRetina: true,
+        }}
+      />
+    </div>
   );
 }

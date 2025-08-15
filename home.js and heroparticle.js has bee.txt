@@ -1,0 +1,2 @@
+home.js and heroparticle.js has been changed
+also translate.js
