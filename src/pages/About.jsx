@@ -69,12 +69,12 @@ export default function About() {
   const t = translations[language];
 
   const gauges = [
-    { label: "Next.js", percent: 70 },
-    { label: "React.js", percent: 70 },
+    { label: "Next.js", percent: 80 },
+    { label: "React.js", percent: 85 },
     { label: "Tailwind", percent: 70 },
-    { label: "JavaScript", percent: 60 },
-    { label: "CSS", percent: 70 },
-    { label: "HTML", percent: 80 },
+    { label: "JavaScript", percent: 85 },
+    { label: "CSS", percent: 75 },
+    { label: "HTML", percent: 85 },
   ];
 
   const slides = useMemo(() => chunk(gauges, 4), [gauges]); // 4 per page
