@@ -1,75 +1,110 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# 🌌 Aria Rajabi — Developer Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, production-grade portfolio website showcasing my work as a **Web / Full-Stack Developer**.  
+Built with **React, Tailwind CSS, and Framer Motion**, it focuses on clean architecture, performance, and a refined user experience.
 
-## Available Scripts
+Live demo: **https://mhrajabi-portfolio.netlify.app/**
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## ✨ Highlights
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🌓 **Dark, premium UI** with card-based layout and subtle glassmorphism
+- 🌍 **Bilingual content** – full English / Italian language support
+- 📂 **Structured content system** for projects, skills, blog posts, and certificates
+- 🧭 Clear navigation across:
+  - Home
+  - About
+  - Projects
+  - Credentials
+  - Certificates
+  - Blog
+  - Contact
+- 🧱 Reusable, composable components (cards, sections, layout primitives)
+- 🎞 **Framer Motion animations** for smooth, non-intrusive transitions
+- 📱 Fully responsive layout (desktop, tablet, mobile)
+- 📨 Contact section ready to hook into any mail/backend service
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠 Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Core**
 
-### `npm run build`
+- React
+- JavaScript (ES6+)
+- Tailwind CSS
+- Framer Motion
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Tooling & Deployment**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Node.js & npm
+- Vite / CRA (depending on setup)
+- Netlify (CI/CD & hosting)
+- Git & GitHub
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🧱 Main Features
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 1. Hero & Overview
+- Name, role, specialization and current tech stack
+- Animated introduction and clear CTA: **“Let’s work together”**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 2. About & Experience
+- Structured bio with clear narrative
+- Education section (Politecnico di Torino + previous degree)
+- Professional experience cards:
+  - Captain @ JustEat
+  - Freelance Web Developer
+  - National Taekwondo Referee @ FITA
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 3. Skills Matrix
+- Detailed skill descriptions for:
+  - Next.js, React.js, Tailwind CSS, JavaScript, CSS, HTML
+- Senior-style copy that explains **how** the skills are used in real projects
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 4. Projects Showcase
+- “All Projects” grid with:
+  - Status (Completed / In Progress)
+  - Tech stack per project
+  - Short description
+  - External links (GitHub repo, live demo)
+- Includes:
+  - Telegram Bot integrated with Google Sheets
+  - Portfolio Website (this site)
+  - Weather App
+  - Blog Platform
 
-## Learn More
+### 5. Credentials & Certificates
+- List of certificates with:
+  - Issuer
+  - Year
+  - Description
+  - View / Download actions
+- Ready to hook to static files (PDFs) under `/public/certs`.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 6. Blog System
+- Localized blog posts (EN / IT), each with:
+  - slug
+  - title
+  - author
+  - role
+  - cover image
+  - content array
+  - reading time
+  - date
+- “Read more” pages and navigation back to the blog list.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 7. Recommendations / Cover Letters
+- Section with recommendation cards for:
+  - Professors & leads (e.g. Politecnico di Torino, AI Lead, etc.)
+- Each card: avatar, name, title, preview text, and full content.
 
-### Code Splitting
+### 8. Contact & Socials
+- Contact form (name, email, subject, message)
+- Status messages: sending / success / error
+- Social links: GitHub, LinkedIn, Instagram, WhatsApp, Telegram, etc.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# portfolioo
-My portfolio designed by me
->>>>>>> 24e0a741663153d698b401fd0fbe2207fb288321
