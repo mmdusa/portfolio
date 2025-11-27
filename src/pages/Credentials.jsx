@@ -102,8 +102,8 @@ export default function Credentials() {
                 </div>
 
                 <div className="px-2 py-6 flex flex-col items-center">
-                  <h2 className="font-semibold text-xl">Mohammad Rajabi</h2>
-                  <p className="text-white/60 text-sm">@mohammadrajabi</p>
+                  <h2 className="font-semibold text-xl">Aria Rajabi</h2>
+                  <p className="text-white/60 text-sm">@Mmmdusa</p>
 
                   {/* Social icons */}
                   <div className="mt-5 flex items-center gap-4 flex-wrap justify-center">
