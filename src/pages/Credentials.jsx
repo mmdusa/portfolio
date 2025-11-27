@@ -22,7 +22,7 @@ export default function Credentials() {
     {
       id: "next",
       title: L("skills_next_title", "Next.js"),
-      pct: "70%",
+      pct: "80%",
       body: L(
         "skills_next_body",
         "Solid understanding of App Router, server components, API routes, dynamic routing and data fetching."
@@ -31,7 +31,7 @@ export default function Credentials() {
     {
       id: "react",
       title: L("skills_react_title", "React.js"),
-      pct: "70%",
+      pct: "85%",
       body: L(
         "skills_react_body",
         "Comfortable building component-driven UIs, state management, and performance-focused patterns."
@@ -49,7 +49,7 @@ export default function Credentials() {
     {
       id: "js",
       title: L("skills_js_title", "JavaScript"),
-      pct: "60%",
+      pct: "85%",
       body: L(
         "skills_js_body",
         "ES6+ syntax, DOM APIs, async patterns, fetch/REST integrations and tooling."
@@ -58,7 +58,7 @@ export default function Credentials() {
     {
       id: "css",
       title: L("skills_css_title", "CSS"),
-      pct: "70%",
+      pct: "75%",
       body: L(
         "skills_css_body",
         "Modern layout (Flex/Grid), animations, responsive design, and best practices."
@@ -67,7 +67,7 @@ export default function Credentials() {
     {
       id: "html",
       title: L("skills_html_title", "HTML"),
-      pct: "80%",
+      pct: "85%",
       body: L(
         "skills_html_body",
         "Semantic structure, accessibility, and SEO-friendly markup."
