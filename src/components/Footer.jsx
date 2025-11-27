@@ -46,7 +46,7 @@ export default function Footer() {
             <Code2 size={16} className="opacity-80 hidden sm:block" />
             <p className="text-white/60 text-sm sm:text-[15px] leading-tight text-left">
               {t.footerDevelopedBy}{" "}
-              <span className="text-white">Mohammad Rajabi</span>. © {year}
+              <span className="text-white">Aria Rajabi</span>. © {year}
             </p>
           </div>
         </div>
