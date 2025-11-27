@@ -204,7 +204,7 @@ export default function Navbar() {
           >
             <span className="h-5 w-5 rounded-full bg-white/10" />
             <span className="text-white font-semibold tracking-wide">
-              Mohammad Rajabi
+              Aria Rajabi
             </span>
           </Link>
           <button
