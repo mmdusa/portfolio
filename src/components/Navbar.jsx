@@ -40,7 +40,7 @@ export default function Navbar() {
               className="w-6 h-6 object-contain"
             />
             <span className="text-white font-semibold tracking-wide">
-              Mohammad Rajabi
+              Aria Rajabi
             </span>
           </Link>
 
