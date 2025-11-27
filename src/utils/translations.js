@@ -19,7 +19,7 @@ export const translations = {
     // =========================
     aboutRegisteredCourses: "REGISTERED COURSES",
     present: "present",
-    name: "Mohammad Rajabi",
+    name: "Aria Rajabi",
     role: "Web Developer",
     tag: "APIs, React, Tailwind, Framer",
     ticker:
@@ -52,7 +52,7 @@ export const translations = {
     // =========================
     // Hero
     // =========================
-    heroTitle: "Hi, I'm Mohammad Rajabi👋",
+    heroTitle: "Hi, I'm Aria Rajabi👋",
     heroSubtitle:
       "I build creative, responsive websites using React, Tailwind, and animation tools like Framer Motion.",
     heroCTA: "Let’s Work Together",
@@ -237,7 +237,7 @@ export const translations = {
       {
         slug: "getting-started-with-react",
         title: "Getting Started with React: A Beginner's Guide",
-        author: "Mohammad Rajabi",
+        author: "Aria Rajabi",
         role: "React developer",
         cover: "/certs/react-hero.png",
         excerpt:
@@ -251,7 +251,7 @@ export const translations = {
       {
         slug: "understanding-component-lifecycle",
         title: "Understanding Component Lifecycle in React",
-        author: "Mohammad Rajabi",
+        author: "Aria Rajabi",
         role: "React developer",
         cover: "/certs/lifecycle-hero.png",
         excerpt:
@@ -265,7 +265,7 @@ export const translations = {
       {
         slug: "Building-Responsive-Layouts-with-CSS-Grid-and-Flexboxe",
         title: "Building Responsive Layouts with CSS Grid and Flexbox",
-        author: "Mohammad Rajabi",
+        author: "Aria Rajabi",
         role: "React developer",
         cover: "/certs/building-responsive.png",
         excerpt:
@@ -279,7 +279,7 @@ export const translations = {
       {
         slug: "Testing-React-Components-with-Jest-and-React-Testing-Library",
         title: "Testing React Components with Jest and React Testing Library",
-        author: "Mohammad Rajabi",
+        author: "Aria Rajabi",
         role: "React developer",
         cover: "/certs/testing-react.png",
         excerpt:
@@ -389,7 +389,7 @@ export const translations = {
     // =========================
     aboutRegisteredCourses: "CORSI SEGUITI",
     present: "presente",
-    name: "Mohammad Rajabi",
+    name: "Aria Rajabi",
     role: "Sviluppatore Web",
     tag: "API, React, Tailwind, Framer",
     ticker:
@@ -421,7 +421,7 @@ export const translations = {
     // =========================
     // Hero
     // =========================
-    heroTitle: "Ciao, sono Mohammad Rajabi👋 👋",
+    heroTitle: "Ciao, sono Aria Rajabi👋 👋",
     heroSubtitle:
       "Creo siti web creativi e reattivi utilizzando React, Tailwind e strumenti di animazione come Framer Motion.",
     heroCTA: "Lavoriamo insieme",
@@ -605,7 +605,7 @@ export const translations = {
       {
         slug: "getting-started-with-react",
         title: "Guida Introduttiva a React: Per Principianti",
-        author: "Mohammad Rajabi",
+        author: "Aria Rajabi",
         role: "Sviluppatore React",
         cover: "/certs/react-hero.png",
         excerpt:
@@ -619,7 +619,7 @@ export const translations = {
       {
         slug: "understanding-component-lifecycle",
         title: "Comprendere il Ciclo di Vita dei Componenti in React",
-        author: "Mohammad Rajabi",
+        author: "Aria Rajabi",
         role: "Sviluppatore React",
         cover: "/certs/lifecycle-hero.png",
         excerpt:
@@ -633,7 +633,7 @@ export const translations = {
       {
         slug: "Building-Responsive-Layouts-with-CSS-Grid-and-Flexboxe",
         title: "Creare Layout Responsive con CSS Grid e Flexbox",
-        author: "Mohammad Rajabi",
+        author: "Aria Rajabi",
         role: "Sviluppatore React",
         cover: "/certs/building-responsive.png",
         excerpt:
@@ -647,7 +647,7 @@ export const translations = {
       {
         slug: "Testing-React-Components-with-Jest-and-React-Testing-Library",
         title: "Testare i Componenti React con Jest e React Testing Library",
-        author: "Mohammad Rajabi",
+        author: "Aria Rajabi",
         role: "Sviluppatore React",
         cover: "/certs/testing-react.png",
         excerpt:
