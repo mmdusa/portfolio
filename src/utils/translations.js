@@ -710,11 +710,11 @@ export const translations = {
       },
       {
         id: "quer",
-        name: "Stefano Quer",
+        name: "Stefano Scanzio",
         title: "Professore, Politecnico di Torino",
         avatar: "/certs/prof-quer.jpg",
         preview:
-          "Mohammad è stato mio studente da settembre 2023 a gennaio 2024. Ha seguito un ottimo percorso di apprendimento...",
+          "It is my pleasure to write this recommendation letter for Mohammadhossein Rajabisohrani.I had the opportunity to get to know Mohammadhossein during the 2024-2025 academic year when he was pursuing his Bachelor's degree in Computer Science Engineering at Politecnico di Torino. I appreciated his attitude toward study during my course about Operating Systems in 2025. Mohammadhossein has shown a very deep interest in the subject, and he passed the exam with a mark of 30, placing his in the top 1-2% of the class.I am confident that Mohammadhossein will be a motivated and dedicated person.",
         content: [
           "Mohammad è stato mio studente ... (paragrafo 1).",
           "Ha consegnato con costanza ... (paragrafo 2).",
