@@ -342,7 +342,7 @@ export const translations = {
       },
       {
         id: "quer",
-        name: "Stefano Quer",
+        name: "Stefano Scanzio",
         title: "Professor, Politecnico di Torino",
         avatar: "/certs/prof-quer.jpg",
         preview:
