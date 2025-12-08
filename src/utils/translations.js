@@ -699,19 +699,6 @@ export const translations = {
     read_more: "Leggi tutto",
     recommendations: [
       {
-        id: "siccardi",
-        name: "Gianandrea Siccardi",
-        title: "Responsabile AI (Referente)",
-        avatar: "/certs/prof-siccardi.jpg",
-        preview:
-          "Desidero raccomandare vivamente Mohammad per la posizione di Sviluppatore AI/Full-Stack...",
-        content: [
-          "Con la presente desidero raccomandare Mohammad ... (paragrafo 1).",
-          "Durante la nostra collaborazione ha dimostrato ... (paragrafo 2).",
-          "Lo consiglio senza esitazioni ... (paragrafo 3).",
-        ],
-      },
-      {
         id: "quer",
         name: "Stefano Scanzio",
         title: "Professore, Politecnico di Torino",
@@ -719,22 +706,12 @@ export const translations = {
         preview:
           "Mohammad è stato mio studente da settembre 2023 a gennaio 2024. Ha seguito un ottimo percorso di apprendimento...",
         content: [
-          "Mohammad è stato mio studente ... (paragrafo 1).",
-          "Ha consegnato con costanza ... (paragrafo 2).",
-          "Lo raccomando per ruoli ... (paragrafo 3).",
-        ],
-      },
-      {
-        id: "rossi",
-        name: "Dott.ssa Maria Rossi",
-        title: "Responsabile Ricerca",
-        avatar: "/certs/prof-rossi.jpg",
-        preview:
-          "Mohammad mi ha colpita per la leadership e le capacità di problem solving durante il nostro progetto di ricerca...",
-        content: [
-          "Mohammad mi ha colpita ... (paragrafo 1).",
-          "Ha gestito proattivamente ... (paragrafo 2).",
-          "Lo raccomando senza riserve ... (paragrafo 3).",
+          "It is my pleasure to write this recommendation letter for Mohammadhossein Rajabisohrani.I had the opportunity to get to know Mohammadhossein during the 2024-2025 academic year when he was pursuing his Bachelor's degree in Computer Science Engineering at Politecnico di Torino.",
+          " I appreciated his attitude toward study during my course about Operating Systems in 2025. Mohammadhossein has shown a very deep interest in the subject, and he passed the exam with a mark of 30, placing his in the top 1-2% of the class.",
+          "I am confident that Mohammadhossein will be a motivated and dedicated person.",
+          "Sincerely,",
+          "Prof. Stefano Scanzio",
+          "stefano.scanzio@polito.it",
         ],
       },
     ],
