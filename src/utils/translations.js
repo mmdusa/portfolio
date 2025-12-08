@@ -328,19 +328,6 @@ export const translations = {
     read_more: "Read more",
     recommendations: [
       {
-        id: "siccardi",
-        name: "Gianandrea Siccardi",
-        title: "AI Lead (Reference)",
-        avatar: "/certs/prof-siccardi.jpg",
-        preview:
-          "I am writing to wholeheartedly endorse Mohammad for the position of AI/Full-Stack Developer...",
-        content: [
-          "I am writing to wholeheartedly endorse Mohammad ... (full paragraph 1).",
-          "During our collaboration, he demonstrated ... (paragraph 2).",
-          "I strongly recommend him ... (paragraph 3).",
-        ],
-      },
-      {
         id: "quer",
         name: "Stefano Scanzio",
         title: "Professor, Politecnico di Torino",
@@ -354,19 +341,6 @@ export const translations = {
           "Sincerely,",
           "Prof. Stefano Scanzio",
           "stefano.scanzio@polito.it",
-        ],
-      },
-      {
-        id: "rossi",
-        name: "Dr. Maria Rossi",
-        title: "Research Lead",
-        avatar: "/certs/prof-rossi.jpg",
-        preview:
-          "Mohammad impressed me with his leadership and problem-solving skills during our research project...",
-        content: [
-          "Mohammad impressed me ... (paragraph 1).",
-          "He proactively handled ... (paragraph 2).",
-          "I endorse him without reservation ... (paragraph 3).",
         ],
       },
     ],
