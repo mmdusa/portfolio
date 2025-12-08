@@ -194,7 +194,7 @@ export default function Credentials() {
               {/* Cover Letters */}
               {recommendations.length > 0 && (
                 <div className="mt-6 rounded-3xl bg-[#17181b] p-6 shadow-lg">
-                  <h3 className="text-xl font-semibold mb-4">
+                  <h3 className="text-xl font-semibold mb-10">
                     {recommendationsTitle}
                   </h3>
 
