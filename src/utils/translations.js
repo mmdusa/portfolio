@@ -326,14 +326,14 @@ export const translations = {
     // =========================
     recommendationsTitle: "Cover Letters",
     read_more: "Read more",
-     recommendations: [
+    recommendations: [
       {
         id: "quer",
         name: "Stefano Scanzio",
         title: "Professore, Politecnico di Torino",
         avatar: "/certs/prof-quer.jpg",
         preview:
-          "Mohammad è stato mio studente da settembre 2023 a gennaio 2024. Ha seguito un ottimo percorso di apprendimento...",
+          "t is my pleasure to write this recommendation letter for Mohammadhossein Rajabisohrani.",
         content: [
           "It is my pleasure to write this recommendation letter for Mohammadhossein Rajabisohrani.I had the opportunity to get to know Mohammadhossein during the 2024-2025 academic year when he was pursuing his Bachelor's degree in Computer Science Engineering at Politecnico di Torino.",
           " I appreciated his attitude toward study during my course about Operating Systems in 2025. Mohammadhossein has shown a very deep interest in the subject, and he passed the exam with a mark of 30, placing his in the top 1-2% of the class.",
@@ -341,7 +341,7 @@ export const translations = {
           "Sincerely,",
           "Prof. Stefano Scanzio",
           "stefano.scanzio@polito.it",
-        ],
+        ], 
       },
     ],
   },
@@ -679,12 +679,12 @@ export const translations = {
         title: "Professore, Politecnico di Torino",
         avatar: "/certs/prof-quer.jpg",
         preview:
-          "Mohammad è stato mio studente da settembre 2023 a gennaio 2024. Ha seguito un ottimo percorso di apprendimento...",
+          "È un piacere per me scrivere questa lettera di referenza per Mohammadhossein Rajabisohrani.",
         content: [
-          "It is my pleasure to write this recommendation letter for Mohammadhossein Rajabisohrani.I had the opportunity to get to know Mohammadhossein during the 2024-2025 academic year when he was pursuing his Bachelor's degree in Computer Science Engineering at Politecnico di Torino.",
-          " I appreciated his attitude toward study during my course about Operating Systems in 2025. Mohammadhossein has shown a very deep interest in the subject, and he passed the exam with a mark of 30, placing his in the top 1-2% of the class.",
-          "I am confident that Mohammadhossein will be a motivated and dedicated person.",
-          "Sincerely,",
+          "È un piacere per me scrivere questa lettera di referenza per Mohammadhossein Rajabisohrani. Ho avuto l'opportunità di conoscere Mohammadhossein durante l'anno accademico 2024-2025 mentre conseguiva la Laurea Triennale in Ingegneria Informatica presso il Politecnico di Torino.",
+          "Ho apprezzato la sua attitudine allo studio durante il mio corso di Sistemi Operativi nel 2025. Mohammadhossein ha mostrato un interesse molto profondo per la materia e ha superato l'esame con un voto di 30, posizionandosi nel primo 1-2% della classe.",
+          "Sono certo che Mohammadhossein si dimostrerà una persona motivata e dedicata.",
+          "Cordiali saluti,",
           "Prof. Stefano Scanzio",
           "stefano.scanzio@polito.it",
         ],
