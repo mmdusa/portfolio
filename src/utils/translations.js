@@ -345,8 +345,6 @@ export const translations = {
       },
     ],
   },
-},
-
   it: {
     // =========================
     // General Labels & Navigation
