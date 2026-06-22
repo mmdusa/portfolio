@@ -13,6 +13,7 @@ import {
   LogOut,
   Grid2X2,
 } from "lucide-react";
+import { useMemo } from "react";
 import { useLanguage } from "../context/LanguageContext";
 import { translations } from "../utils/translations";
 
@@ -48,11 +49,11 @@ const IconGo = ({ to, href, label = "Open", size = 16 }) => {
     "inline-flex items-center justify-center rounded-xl border border-white/10 bg-white/10 p-2.5 hover:bg-white/20 transition z-20";
   const icon = <LogOut size={size} />;
   return href ? (
-    <a href={href} target="_blank" rel="noreferrer" className={base}>
+    <a href={href} target="_blank" rel="noreferrer" aria-label={label} className={base}>
       {icon}
     </a>
   ) : (
-    <Link to={to} className={base}>
+    <Link to={to} aria-label={label} className={base}>
       {icon}
     </Link>
   );
@@ -63,25 +64,24 @@ const SAFE_BR = "pr-[60px] pb-[60px]";
 const CARD_H = "md:h-[220px]";
 const PROFILE_H = "md:h-[270px]";
 
-const inView = (() => {
-  const isNarrow =
-    typeof window !== "undefined" &&
-    window.matchMedia &&
-    (window.matchMedia("(max-width: 900px)").matches ||
-      window.matchMedia("(max-height: 700px)").matches);
-
-  return {
-    initial: "hidden",
-    whileInView: "visible",
-    viewport: isNarrow
-      ? { once: false, amount: 0.01, margin: "120px 0px -10% 0px" }
-      : { once: false, amount: 0.15, margin: "0px 0px -10% 0px" },
-  };
-})();
-
 export default function Home() {
   const { language } = useLanguage();
   const t = translations[language] ?? {};
+
+  const inView = useMemo(() => {
+    const isNarrow =
+      typeof window !== "undefined" &&
+      window.matchMedia &&
+      (window.matchMedia("(max-width: 900px)").matches ||
+        window.matchMedia("(max-height: 700px)").matches);
+    return {
+      initial: "hidden",
+      whileInView: "visible",
+      viewport: isNarrow
+        ? { once: false, amount: 0.01, margin: "120px 0px -10% 0px" }
+        : { once: false, amount: 0.15, margin: "0px 0px -10% 0px" },
+    };
+  }, []);
 
   return (
     <PageWrapper>
@@ -311,7 +311,7 @@ export default function Home() {
                 </h3>
               </div>
               <div className="absolute right-3 bottom-3 md:right-4 md:bottom-4">
-                <IconGo to="/profiles" label={t.openProfiles} size={18} />
+                <IconGo to="/contact" label={t.openProfiles} size={18} />
               </div>
             </motion.div>
 
@@ -361,9 +361,11 @@ export default function Home() {
               </div>
               <div className="flex h-full items-start">
                 <div className="mt-12">
-                  <p className="text-3xl font-bold text-white leading-none">
-                    {t.lets}
-                  </p>
+                  {t.lets && (
+                    <p className="text-3xl font-bold text-white leading-none">
+                      {t.lets}
+                    </p>
+                  )}
                   <p className="text-4xl font-bold text-white mt-3 leading-none">
                     {t.work}{" "}
                     <span className="text-purple-400">{t.together}</span>

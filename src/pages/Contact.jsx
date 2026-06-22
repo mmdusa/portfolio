@@ -51,7 +51,6 @@ export default function Contact() {
     whatsapp: t.contact_whatsapp || "WhatsApp",
     telegram: t.contact_telegram || "Telegram",
 
-    heading: t.contact_heading || "Let’s work together",
     name_label: t.contact_form_name || "Name",
     name_ph: t.contact_form_placeholder_name || "Your name",
     email_label: t.contact_form_email || "Email",
@@ -180,12 +179,10 @@ export default function Contact() {
 
               <div className="relative z-10">
                 <h1 className="text-3xl md:text-4xl font-extrabold mb-6">
-                  <h1 className="text-3xl md:text-4xl font-extrabold mb-6">
-                    {t.contact_heading_first}{" "}
-                    <span className="text-purple-400">
-                      {t.contact_heading_second}
-                    </span>
-                  </h1>
+                  {t.contact_heading_first}{" "}
+                  <span className="text-purple-400">
+                    {t.contact_heading_second}
+                  </span>
                 </h1>
 
                 <form

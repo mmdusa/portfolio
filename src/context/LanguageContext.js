@@ -3,10 +3,17 @@ import { createContext, useContext, useState } from "react";
 const LanguageContext = createContext();
 
 export const LanguageProvider = ({ children }) => {
-  const [language, setLanguage] = useState("en");
+  const [language, setLanguage] = useState(
+    () => localStorage.getItem("lang") || "en"
+  );
+
+  const handleSetLanguage = (lang) => {
+    localStorage.setItem("lang", lang);
+    setLanguage(lang);
+  };
 
   return (
-    <LanguageContext.Provider value={{ language, setLanguage }}>
+    <LanguageContext.Provider value={{ language, setLanguage: handleSetLanguage }}>
       {children}
     </LanguageContext.Provider>
   );

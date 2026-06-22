@@ -124,7 +124,7 @@ export default function BlogPost() {
           {/* Author */}
           <div className="mt-6 flex items-center gap-3">
             <img
-              src="/mmdusa.jpg"
+              src="/certs/mmdusa.jpg"
               alt={post.author}
               className="h-10 w-10 rounded-full object-cover border border-white/10"
             />

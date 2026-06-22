@@ -1,6 +1,6 @@
 // src/components/Navbar.jsx
 import { NavLink, Link } from "react-router-dom";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { X } from "lucide-react";
 import { useLanguage } from "../context/LanguageContext";
 import { translations } from "../utils/translations";
@@ -10,6 +10,7 @@ const cx = (...c) => c.filter(Boolean).join(" ");
 export default function Navbar() {
   const [langOpen, setLangOpen] = useState(false);
   const [drawerOpen, setDrawerOpen] = useState(false);
+  const langRef = useRef(null);
 
   const { language, setLanguage } = useLanguage();
   const t = translations[language];
@@ -17,6 +18,24 @@ export default function Navbar() {
   useEffect(() => {
     document.documentElement.classList.add("dark");
   }, []);
+
+  useEffect(() => {
+    if (!langOpen) return;
+    const handleClickOutside = (e) => {
+      if (langRef.current && !langRef.current.contains(e.target)) {
+        setLangOpen(false);
+      }
+    };
+    const handleEscape = (e) => {
+      if (e.key === "Escape") setLangOpen(false);
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    document.addEventListener("keydown", handleEscape);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+      document.removeEventListener("keydown", handleEscape);
+    };
+  }, [langOpen]);
 
   useEffect(() => {
     document.body.classList.toggle("overflow-hidden", drawerOpen);
@@ -108,7 +127,7 @@ export default function Navbar() {
           {/* Right controls */}
           <div className="flex items-center gap-2">
             {/* Language toggle */}
-            <div className="relative">
+            <div className="relative" ref={langRef}>
               <button
                 onClick={() => setLangOpen((v) => !v)}
                 className="h-8 pl-2 pr-2.5 rounded-full bg-white/5 text-white/80 hover:text-white flex items-center gap-1.5"

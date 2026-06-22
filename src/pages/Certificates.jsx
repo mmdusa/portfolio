@@ -129,6 +129,7 @@ export default function Certificates() {
               className="fixed inset-0 z-50 flex items-end md:items-center justify-center"
               aria-modal="true"
               role="dialog"
+              aria-labelledby="cert-modal-title"
             >
               <div
                 className="absolute inset-0 bg-black/60"
@@ -149,7 +150,7 @@ export default function Certificates() {
                     />
                   </div>
                   <div className="min-w-0">
-                    <h3 className="text-xl font-semibold">{c.title}</h3>
+                    <h3 id="cert-modal-title" className="text-xl font-semibold">{c.title}</h3>
                     <p className="text-white/60 text-sm">
                       {c.issuer} {c.date ? `• ${c.date}` : ""}
                     </p>

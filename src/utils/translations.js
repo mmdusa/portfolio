@@ -79,7 +79,7 @@ export const translations = {
     politecnico: "Politecnico Di Torino",
     politecnicoDesc:
       "Pursuing my Bachelor’s Degree in Computer Engineering at Politecnico di Torino, I’ve built a solid foundation in computer science, mathematics, and engineering—equipping me with the skills to tackle complex problems and create innovative solutions in the tech industry.",
-    shiraz: "Soroush Technical Univeristy",
+    shiraz: "Soroush Technical University",
     shirazDesc:
       "Graduated with an Associate’s Degree in Electrical Engineering, gaining a strong foundation in circuit theory, electronics, and electrical systems—providing the technical skills and knowledge for advanced studies in engineering and technology",
 
@@ -233,6 +233,11 @@ export const translations = {
     blog_form_placeholder_email: "Email *",
     blog_form_placeholder_message: "Write your comment…",
     blog_form_send: "Send Comment",
+    blog_form_sending: "Sending…",
+    blog_form_success: "Thanks! Your comment is awaiting moderation.",
+    blog_form_error_generic: "Something went wrong. Please try again.",
+    blog_comments_title: "Comments",
+    blog_comments_empty: "No comments yet. After approval, they will appear here.",
     blog_posts: [
       {
         slug: "getting-started-with-react",
@@ -263,7 +268,7 @@ export const translations = {
         date: "2025-02-03",
       },
       {
-        slug: "Building-Responsive-Layouts-with-CSS-Grid-and-Flexboxe",
+        slug: "Building-Responsive-Layouts-with-CSS-Grid-and-Flexbox",
         title: "Building Responsive Layouts with CSS Grid and Flexbox",
         author: "Aria Rajabi",
         role: "React developer",
@@ -577,6 +582,11 @@ export const translations = {
     blog_form_placeholder_email: "Email *",
     blog_form_placeholder_message: "Scrivi il tuo commento…",
     blog_form_send: "Invia commento",
+    blog_form_sending: "Invio…",
+    blog_form_success: "Grazie! Il tuo commento è in attesa di moderazione.",
+    blog_form_error_generic: "Qualcosa è andato storto. Riprova.",
+    blog_comments_title: "Commenti",
+    blog_comments_empty: "Nessun commento ancora. Dopo l'approvazione, appariranno qui.",
     blog_posts: [
       {
         slug: "getting-started-with-react",
@@ -607,7 +617,7 @@ export const translations = {
         date: "2025-02-03",
       },
       {
-        slug: "Building-Responsive-Layouts-with-CSS-Grid-and-Flexboxe",
+        slug: "Building-Responsive-Layouts-with-CSS-Grid-and-Flexbox",
         title: "Creare Layout Responsive con CSS Grid e Flexbox",
         author: "Aria Rajabi",
         role: "Sviluppatore React",

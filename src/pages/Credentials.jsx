@@ -117,7 +117,7 @@ export default function Credentials() {
                       <Linkedin size={22} />
                     </a>
                     <a
-                      href="https://github.com/yourusername"
+                      href="https://github.com/MmdUsa"
                       target="_blank"
                       rel="noreferrer"
                       className="p-3 rounded-full bg-white/10 hover:bg-white/20"
@@ -126,21 +126,21 @@ export default function Credentials() {
                       <Github size={22} />
                     </a>
                     <a
-                      href="mailto:you@example.com"
+                      href="mailto:momo.tkd19@gmail.com"
                       className="p-3 rounded-full bg-white/10 hover:bg-white/20"
                       aria-label="Email"
                     >
                       <Mail size={22} />
                     </a>
                     <a
-                      href="tel:+0000000000"
+                      href="tel:+393270376929"
                       className="p-3 rounded-full bg-white/10 hover:bg-white/20"
                       aria-label="Phone"
                     >
                       <Phone size={22} />
                     </a>
                     <a
-                      href="https://your-site.com"
+                      href="https://mhrajabi-portfolio.netlify.app/"
                       target="_blank"
                       rel="noreferrer"
                       className="p-3 rounded-full bg-white/10 hover:bg-white/20"
@@ -259,6 +259,7 @@ export default function Credentials() {
             className="fixed inset-0 z-50 flex items-end md:items-center justify-center"
             aria-modal="true"
             role="dialog"
+            aria-labelledby="rec-modal-name"
           >
             <div
               className="absolute inset-0 bg-black/60"
@@ -272,7 +273,7 @@ export default function Credentials() {
                   className="h-12 w-12 rounded-xl object-cover border border-white/10"
                 />
                 <div className="min-w-0">
-                  <h4 className="text-lg font-semibold">{selectedRec.name}</h4>
+                  <h4 id="rec-modal-name" className="text-lg font-semibold">{selectedRec.name}</h4>
                   {selectedRec.title && (
                     <p className="text-white/60 text-sm">{selectedRec.title}</p>
                   )}

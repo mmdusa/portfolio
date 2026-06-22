@@ -4,6 +4,15 @@ import { useLanguage } from "../context/LanguageContext";
 import { translations } from "../utils/translations";
 import { useMemo, useRef, useState, useEffect } from "react";
 
+const gauges = [
+  { label: "Next.js", percent: 80 },
+  { label: "React.js", percent: 85 },
+  { label: "Tailwind", percent: 70 },
+  { label: "JavaScript", percent: 85 },
+  { label: "CSS", percent: 75 },
+  { label: "HTML", percent: 85 },
+];
+
 /* === Circular gauge === */
 function CircleGauge({
   label,
@@ -68,16 +77,7 @@ export default function About() {
   const { language } = useLanguage();
   const t = translations[language];
 
-  const gauges = [
-    { label: "Next.js", percent: 80 },
-    { label: "React.js", percent: 85 },
-    { label: "Tailwind", percent: 70 },
-    { label: "JavaScript", percent: 85 },
-    { label: "CSS", percent: 75 },
-    { label: "HTML", percent: 85 },
-  ];
-
-  const slides = useMemo(() => chunk(gauges, 4), [gauges]); // 4 per page
+  const slides = useMemo(() => chunk(gauges, 4), []); // 4 per page
   const { ref: railRef, page, goTo } = useSlider();
 
   return (

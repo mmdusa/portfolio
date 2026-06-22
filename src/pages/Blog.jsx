@@ -53,7 +53,7 @@ export default function Blog() {
                 {/* Author row */}
                 <div className="px-5 md:px-6 pt-5 md:pt-6 flex items-center gap-3">
                   <img
-                    src="/mmdusa.jpg"
+                    src="/certs/mmdusa.jpg"
                     alt={p.author}
                     className="h-8 w-8 rounded-full object-cover opacity-90"
                   />
